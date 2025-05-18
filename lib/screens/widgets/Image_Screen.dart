@@ -80,7 +80,7 @@ class _ImageScreenState extends State<ImageScreen> {
                     isAntiAlias: true, // Bordes suavizados
                   ),
                   const SizedBox(height: 20),
-                  const Text("Descripción del gato"),
+                  const Text("es un pequeño mamífero carnívoro domesticado. Es la única especie domesticada de la familia Felidae. Los avances en arqueología y genética han demostrado que la domesticación del gato se produjo en el Cercano Oriente alrededor del 7500 a.C."),
 
                   // GridView con imágenes desde URL
                   GridView.builder(
