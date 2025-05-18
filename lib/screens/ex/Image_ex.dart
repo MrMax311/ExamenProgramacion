@@ -68,19 +68,6 @@ Image.network(
   errorBuilder: (context, error, _) =>       // Manejo de errores
     Text("Error al cargar"),
 ),
-
-// Propiedades explicadas:
-// ---------------------------------------------------
-// color:         Aplica filtro de color (usar con colorBlendMode)
-// colorBlendMode: Cómo se mezcla el color (BlendMode.overlay, .softLight, etc.)
-// filterQuality:  Calidad de renderizado (high/medium/low)
-// width/height:   Dimensiones fijas del widget
-// fit:           Cómo ajustar la imagen al espacio:
-//                - cover: Cubre recortando
-//                - contain: Muestra completa
-//                - fill: Distorsiona para llenar
-// alignment:     Posición dentro del espacio disponible
-// isAntiAlias:   true = bordes suaves, false = bordes pixelados
 ''',
         style: TextStyle(
           fontFamily: 'monospace',
