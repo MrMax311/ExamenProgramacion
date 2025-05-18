@@ -14,7 +14,7 @@ class _ImageExState extends State<ImageEx> {
       padding: const EdgeInsets.all(12.0),
       child: const SelectableText(
         '''
-// Ejemplo 1: Imagen desde assets con propiedades avanzadas
+//Imagen desde assets con propiedades avanzadas
 Image.asset(
   'assets/gato.png',
   color: Colors.purple.withOpacity(0.5),       // Aplica filtro morado semi-transparente
@@ -27,7 +27,7 @@ Image.asset(
   isAntiAlias: true,                          // Bordes suavizados
 ),
 
-// Ejemplo 2: Imagen desde URL con GridView
+//Imagen desde URL con GridView
 GridView.builder(
   shrinkWrap: true,
   itemCount: imagenurl.length,
@@ -54,7 +54,7 @@ GridView.builder(
   },
 ),
 
-// Ejemplo 3: Imagen desde URL directa
+//Imagen desde URL directa
 Image.network(
   "https://ejemplo.com/imagen.jpg",
   color: Colors.grey,                         // Filtro gris
